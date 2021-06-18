@@ -1,0 +1,12 @@
+a=int(input("enter a number"))
+se=0
+so=0
+while a>0:
+    rem=a%10
+    if rem%2==0:
+        se=se+rem
+    else:
+        so=so+rem
+    a=a//10
+print(se,"sum of even")
+print(so,"sum of odd")
