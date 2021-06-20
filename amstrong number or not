@@ -1,0 +1,12 @@
+a=int(input("enter a number:"))
+temp=a
+Am=0
+b=len(str(a))
+while a>0:
+    rem=a%10
+    Am=rem**b+Am
+    a=a//10
+if Am==temp:
+    print("it is an amstrong number")
+else:
+    print("it is not a amstrong number")
