@@ -1,0 +1,5 @@
+a=input("enter a string:")
+reversed_string=" "
+for i in a:
+    reversed_string=i+reversed_string
+print(reversed_string)
