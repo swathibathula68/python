@@ -1,0 +1,10 @@
+a=int(input("enter a starting number:"))
+b=int(input("enter a ending number:"))
+for i in range(a,b+1):
+    sum1=0
+    for j in range(1,i):
+        rem=i%j
+        if rem==0:
+            sum1=sum1+j
+    if i==sum1:
+        print(i)
