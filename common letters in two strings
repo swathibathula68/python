@@ -1,0 +1,7 @@
+a=input("enter a string")
+b=input("enter another string")
+c=set(a)
+d=set(b)
+r=c&d
+for i in r:
+    print(i,end=' ')
