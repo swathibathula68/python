@@ -1,0 +1,7 @@
+a=list(input("enter the string:"))
+b=['a','e','i','o','u']
+cnt=0
+for i in range(len(a)):
+    if a[i] in b:
+        cnt+=1
+print(cnt)
